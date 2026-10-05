@@ -1,5 +1,5 @@
 import Aside from "./layout/Aside.jsx";
-import Content from "./layout/Content.jsx";
+import Conetent from "./layout/Content.jsx";
 import Header from "./layout/Header.jsx";
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
             <Header />
             <div className="flex">
                 <Aside />
-                <Content />
+                <Conetent />
             </div>
         </div>
     )
